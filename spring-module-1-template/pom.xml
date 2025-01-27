@@ -56,5 +56,6 @@
 	</build>
 	<modules>
 		<module>getting-start-security-xml</module>
+		<module>getting-start-security</module>
 	</modules>
 </project>
