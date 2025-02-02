@@ -33,6 +33,22 @@
 			<groupId>jakarta.servlet.jsp.jstl</groupId>
 			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
 		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-maven-plugin -->
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-maven-plugin</artifactId>
+			<version>11.0.18</version>
+		</dependency>
+
+		<!--
+		https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -57,5 +73,7 @@
 	<modules>
 		<module>getting-start-security-xml</module>
 		<module>getting-start-security</module>
+		<module>security-getting-start-xml</module>
+		<module>getting-start-security-java-config</module>
 	</modules>
 </project>
