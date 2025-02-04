@@ -1,5 +1,7 @@
 package com.jdc.spring.demo;
 
-public class ApplicationSecurityLoader {
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+public class ApplicationSecurityLoader extends AbstractSecurityWebApplicationInitializer{
 
 }
